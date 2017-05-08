@@ -5,11 +5,9 @@ public class CuentaCorriente extends Cuenta {
 	private Double sobregiro;
 	private Double totalConSobregiro = 0d;
 	
-	public CuentaCorriente (Double comision, Double sobregiro)
+	public CuentaCorriente ()
 	{
 		super();
-		this.comision = comision;
-		this.sobregiro = sobregiro;
 	}
 	
 

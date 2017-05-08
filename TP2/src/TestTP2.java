@@ -41,7 +41,7 @@ public class TestTP2 {
 	@Test
 	public void testSobregiroCuentaCorriente()
 	{
-		CuentaCorriente  miCuentaCorriente = new CuentaCorriente(1d, 1d);
+		CuentaCorriente  miCuentaCorriente = new CuentaCorriente();
 		miCuentaCorriente.depositar(100d);
 		miCuentaCorriente.setSobregiro(150d);
 		miCuentaCorriente.setComision(1.05);
